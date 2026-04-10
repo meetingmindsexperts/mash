@@ -39,8 +39,7 @@
   <link rel="apple-touch-icon" href="favicon.png">
 
   <!-- Preload key assets -->
-  <link rel="preload" as="image" href="assets/img/mash-banner-m.jpg" media="(max-width: 720px)" fetchpriority="high">
-  <link rel="preload" as="image" href="assets/img/mash-banner-desk.jpg" media="(min-width: 721px)" fetchpriority="high">
+  <link rel="preload" as="video" href="assets/videos/mash.mp4" type="video/mp4" fetchpriority="high">
   <link rel="preload" as="style" href="assets/css/styles.css">
 
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -127,9 +126,15 @@
 
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
-        <span class="nav-toggle-bar" aria-hidden="true"></span>
-        <span class="nav-toggle-bar" aria-hidden="true"></span>
-        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <svg class="nav-toggle-icon nav-toggle-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+        <svg class="nav-toggle-icon nav-toggle-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+        </svg>
       </button>
       <nav class="primary-nav" id="primary-nav" aria-label="Primary">
         <ul>
@@ -147,14 +152,17 @@
     <!-- HERO -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-banner">
-        <picture>
-          <source media="(max-width: 720px)"
-                  srcset="assets/img/mash-banner-m.jpg"
-                  width="2611" height="2644">
-          <img src="assets/img/mash-banner-desk.jpg"
-               alt="MASH in Focus — Integrating Metabolic and Hepatic Care in the UAE. 25 April 2026, 6:00 – 8:15 PM (GMT +4:00), Virtual."
-               width="7500" height="3333" fetchpriority="high">
-        </picture>
+        <video
+          class="hero-video"
+          src="assets/videos/mash.mp4"
+          poster="assets/img/mash-banner-desk.jpg"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-label="MASH in Focus — Integrating Metabolic and Hepatic Care in the UAE. 25 April 2026, 6:00 – 8:15 PM (GMT +4:00), Virtual.">
+        </video>
       </div>
 
       <div class="container hero-body">

@@ -17,6 +17,8 @@
     end:         '2026-04-25T20:15:00+04:00',
     uid:         'mash-uae-2026-04-25@meetingmindsexperts.github.io'
   };
+  // Dedicated page that embeds the BigMarker registration form.
+  // Applied to every [data-register] link below (rewritten to open in a new tab).
   var REGISTRATION_URL = 'register.html';
 
   // ---------- helpers ----------
