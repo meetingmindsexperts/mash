@@ -8,3 +8,4 @@ Thumbs.db
 node_modules/
 assets/img/Speakers.zip
 *.zip
+.claude/launch.json

@@ -17,18 +17,18 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="MASH in Focus">
-  <meta property="og:title" content="MASH in Focus — MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
+  <meta property="og:title" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
   <meta property="og:description" content="Virtual scientific program · 25 April 2026 · 6:00 – 8:15 PM (GMT +4:00). Chaired by Dr. Ahmad Al‑Rifai with leading hepatology and endocrinology faculty. For healthcare professionals.">
   <meta property="og:url" content="https://meetingmindsexperts.github.io/mash/">
   <meta property="og:image" content="https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="MASH in Focus — MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE, 25 April 2026, virtual scientific event.">
+  <meta property="og:image:alt" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE, 25 April 2026, virtual scientific event.">
   <meta property="og:locale" content="en_AE">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MASH in Focus — MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
+  <meta name="twitter:title" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
   <meta name="twitter:description" content="Virtual scientific program · 25 April 2026 · 6:00 – 8:15 PM (GMT +4:00). For healthcare professionals.">
   <meta name="twitter:image" content="https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg">
 
@@ -39,7 +39,8 @@
   <link rel="apple-touch-icon" href="favicon.png">
 
   <!-- Preload key assets -->
-  <link rel="preload" as="image" href="assets/img/mash-banner.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/mash-banner-m.jpg" media="(max-width: 720px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/mash-banner-desk.jpg" media="(min-width: 721px)" fetchpriority="high">
   <link rel="preload" as="style" href="assets/css/styles.css">
 
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -49,7 +50,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Event",
-    "name": "MASH in Focus — MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE",
+    "name": "MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE",
     "description": "A multidisciplinary scientific program on early identification and integrated management of MASH (metabolic dysfunction-associated steatohepatitis). Chaired by Dr. Ahmad Al‑Rifai with leading hepatology and endocrinology faculty from the UAE and Germany. For healthcare professionals only.",
     "startDate": "2026-04-25T18:00:00+04:00",
     "endDate": "2026-04-25T20:15:00+04:00",
@@ -61,7 +62,7 @@
     },
     "image": [
       "https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg",
-      "https://meetingmindsexperts.github.io/mash/assets/img/mash-banner.jpg"
+      "https://meetingmindsexperts.github.io/mash/assets/img/mash-banner-desk.jpg"
     ],
     "organizer": {
       "@type": "Organization",
@@ -122,7 +123,7 @@
   <header class="site-header" id="top">
     <div class="container nav-bar">
       <a class="brand" href="#top" aria-label="Wegovy in MASH — home">
-        <img class="brand-mark" src="assets/img/mash.png" alt="" width="150" height="80" aria-hidden="true">
+        <img class="brand-mark" src="assets/img/mash.png" alt="" width="200" height="auto" aria-hidden="true">
 
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
@@ -146,9 +147,14 @@
     <!-- HERO -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-banner">
-        <img src="assets/img/mash-banner.jpg"
-             alt="MASH in Focus — Integrating Metabolic and Hepatic Care in the UAE. 25 April 2026, 6:00 – 8:15 PM (GMT +4:00), Virtual."
-             width="2517" height="842" fetchpriority="high">
+        <picture>
+          <source media="(max-width: 720px)"
+                  srcset="assets/img/mash-banner-m.jpg"
+                  width="2611" height="2644">
+          <img src="assets/img/mash-banner-desk.jpg"
+               alt="MASH in Focus — Integrating Metabolic and Hepatic Care in the UAE. 25 April 2026, 6:00 – 8:15 PM (GMT +4:00), Virtual."
+               width="7500" height="3333" fetchpriority="high">
+        </picture>
       </div>
 
       <div class="container hero-body">

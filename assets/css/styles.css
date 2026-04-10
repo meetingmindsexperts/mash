@@ -106,14 +106,16 @@ abbr[title] { text-decoration: none; border-bottom: 1px dotted currentColor; cur
   color: var(--ink); text-decoration: none;
 }
 .brand-mark {
-  display: inline-grid; place-items: center;
-  width: 36px; height: 36px; border-radius: 10px;
+  display: inline-grid; 
+  place-items: center;
+  width: 150px;
+  border-radius: 10px;
   background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
   color: #fff; font-weight: 900; font-size: 1.05rem;
   box-shadow: var(--shadow-sm);
 }
 img.brand-mark {
-  width: auto; height: 36px;
+  width: 150px; height: auto;
   background: none; box-shadow: none;
   border-radius: 6px; object-fit: contain;
 }
