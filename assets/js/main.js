@@ -17,8 +17,7 @@
     end:         '2026-04-25T20:15:00+04:00',
     uid:         'mash-uae-2026-04-25@meetingmindsexperts.github.io'
   };
-  // TODO: replace with the real registration URL when available.
-  var REGISTRATION_URL = '#register';
+  var REGISTRATION_URL = 'register.html';
 
   // ---------- helpers ----------
   function $ (sel, ctx) { return (ctx || document).querySelector(sel); }
