@@ -531,7 +531,8 @@ img.brand-mark {
   padding: 48px 0 32px;
 }
 .footer-brand {
-  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 22px 40px;
+  display: flex; flex-wrap: wrap; align-items: flex-end;
+  gap: 22px 40px;
   margin-bottom: 28px;
 }
 .footer-brand img {
@@ -542,6 +543,10 @@ img.brand-mark {
 }
 .brand-group {
   display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+}
+.brand-group-end { margin-left: auto; align-items: flex-end; }
+@media (max-width: 720px) {
+  .brand-group-end { margin-left: 0; align-items: flex-start; }
 }
 .brand-label {
   font-size: .7rem;
