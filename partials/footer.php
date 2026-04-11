@@ -1,0 +1,37 @@
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <div class="brand-group">
+          <span class="brand-label">Managed by</span>
+          <img src="assets/img/mme.png" alt="Meeting Minds Experts" width="220" height="120" loading="lazy">
+        </div>
+        <div class="brand-group">
+          <span class="brand-label">Endorsed by</span>
+          <img src="assets/img/dha-logo.png" alt="Dubai Health Authority" width="220" height="120" loading="lazy">
+        </div>
+        <div class="brand-group brand-group-end">
+          <span class="brand-label">Sponsored by</span>
+          <img src="assets/img/logo-novonordisk.png" alt="Novo Nordisk" width="220" height="120" loading="lazy">
+        </div>
+      </div>
+
+      <p class="abbreviation">
+        MASH, metabolic dysfunction-associated steatohepatitis.
+      </p>
+      <p class="disclaimer">
+        This program is sponsored by Novo Nordisk and endorsed by the Dubai Health Authority (DHA). Program management by Meeting Minds Experts. Visual materials are produced by Novo Nordisk. Content is for healthcare professionals only, for educational purposes, and does not constitute medical advice.
+        &copy; <?= date('Y') ?> Novo Nordisk.
+      </p>
+
+      <p class="meta-line">
+        <span>AE26SEMO00056</span>
+        <span>&copy; <?= date('Y') ?> Meeting Minds Experts. All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
