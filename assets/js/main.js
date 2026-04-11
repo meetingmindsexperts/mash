@@ -27,9 +27,34 @@
 
   function pad (n) { return (n < 10 ? '0' : '') + n; }
 
+  // ---------- HTML partial includes ----------
+  // Client-side <?php include ?>: any <div data-include="partials/foo.html"></div>
+  // is replaced with the fetched markup on load. Will be swapped for a real
+  // server-side include when this moves off GitHub Pages.
+  function loadIncludes () {
+    var nodes = $$('[data-include]');
+    var tasks = nodes.map(function (el) {
+      var url = el.getAttribute('data-include');
+      return fetch(url)
+        .then(function (res) { return res.ok ? res.text() : ''; })
+        .then(function (html) {
+          if (!html) return;
+          var tpl = document.createElement('template');
+          tpl.innerHTML = html.trim();
+          el.parentNode.replaceChild(tpl.content, el);
+        })
+        .catch(function () { /* leave placeholder in place */ });
+    });
+    return Promise.all(tasks);
+  }
+
   // ---------- footer year ----------
-  var yearEl = $('[data-year]');
-  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+  // Runs after partials are injected so it can find [data-year] inside them.
+  loadIncludes().then(function () {
+    $$('[data-year]').forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
+    });
+  });
 
   // ---------- mobile nav toggle ----------
   var navToggle = $('.nav-toggle');
