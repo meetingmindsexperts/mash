@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://meetingmindsexperts.github.io/mash/sitemap.xml
+# Pre-launch: full crawl block. Revert Disallow -> Allow at launch.
+# Sitemap: https://meetingmindsexperts.github.io/mash/sitemap.xml

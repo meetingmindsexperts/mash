@@ -1,4 +1,40 @@
 <?php
+// ---------------------------------------------------------------------------
+// Pre-launch gate
+// ---------------------------------------------------------------------------
+// Flip $LAUNCHED = true when the site goes live. While false, every page that
+// includes this header is replaced with partials/coming-soon.php, except for
+// register.php (early sign-ups via direct link still work) and visitors who
+// arrive with ?preview=<token> (stakeholder preview, persisted in a cookie).
+$LAUNCHED       = false;
+$PREVIEW_TOKEN  = 'mash2026';
+$PREVIEW_COOKIE = 'mash_preview';
+
+if (!$LAUNCHED) {
+    if (isset($_GET['preview']) && hash_equals($PREVIEW_TOKEN, (string) $_GET['preview'])) {
+        setcookie($PREVIEW_COOKIE, $PREVIEW_TOKEN, [
+            'expires'  => time() + 60 * 60 * 24 * 7,
+            'path'     => '/',
+            'secure'   => !empty($_SERVER['HTTPS']),
+            'httponly' => true,
+            'samesite' => 'Lax',
+        ]);
+        $preview_ok = true;
+    } else {
+        $preview_ok = isset($_COOKIE[$PREVIEW_COOKIE])
+            && hash_equals($PREVIEW_TOKEN, (string) $_COOKIE[$PREVIEW_COOKIE]);
+    }
+
+    $script      = basename($_SERVER['SCRIPT_NAME'] ?? '');
+    $is_register = in_array($script, ['register.php'], true);
+
+    if (!$preview_ok && !$is_register) {
+        header('X-Robots-Tag: noindex, nofollow', true);
+        include __DIR__ . '/coming-soon.php';
+        exit;
+    }
+}
+// ---------------------------------------------------------------------------
 // Shared page header. Set any of these before `include`-ing this file:
 //   $page_title              string
 //   $page_description        string

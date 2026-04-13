@@ -37,3 +37,6 @@ jobs:
             **/.DS_Store
             **/.vscode/**
             **/README.md
+            index.html
+            register.html
+            partials/footer.html
