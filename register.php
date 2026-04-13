@@ -37,8 +37,9 @@ include __DIR__ . '/partials/header.php';
 
         <div class="register-widget" aria-label="Registration form">
           <div id="bigmarker-conference-widget-container53be47fbc530"></div>
-          <script src="https://www.bigmarker.com/widget/register_widget.js?club=medulive&conference=53be47fbc530&widget_type=form_register&series_register=&upcoming_sub_title=&live_sub_title=&rec_sub_title=&upcoming_button_text=&live_button_text=&rec_button_text=&link_to_channel=true&form_type=all_fields&widget_width=&widget_height=0&enable_iframe=false&background_color=ffffff&btext_color=2d374d&link_color=F30617&ltext_color=ffffff&redirect_to_confirmation_page=0&widget_button_registered_content=&widget_webinar_descriptions=&widget_redirect_type=no_redirect&cid=100c694fa34c" type="text/javascript"></script>
+          <script src="https://www.bigmarker.com/widget/register_widget.js?club=medulive&conference=53be47fbc530&widget_type=form_register&series_register=&upcoming_sub_title=&live_sub_title=&rec_sub_title=&upcoming_button_text=&live_button_text=&rec_button_text=&link_to_channel=true&form_type=all_fields&widget_width=&widget_height=0&enable_iframe=false&background_color=ffffff&btext_color=2d374d&link_color=00A4D0&ltext_color=ffffff&redirect_to_confirmation_page=0&widget_button_registered_content=&widget_webinar_descriptions=&widget_redirect_type=no_redirect&cid=100c694fa34c" type="text/javascript"></script>
         </div>
+          
       </div>
     </section>
 
