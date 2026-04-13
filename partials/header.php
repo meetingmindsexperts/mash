@@ -28,6 +28,15 @@ $page_extra_head        = $page_extra_head        ?? '';
   <meta name="theme-color" content="#e6007e">
   <meta name="color-scheme" content="light">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH081LKK8Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HH081LKK8Q');
+  </script>
+
   <title><?= htmlspecialchars($page_title, ENT_QUOTES) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description, ENT_QUOTES) ?>">
   <meta name="robots" content="<?= htmlspecialchars($page_robots, ENT_QUOTES) ?>">
