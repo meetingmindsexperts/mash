@@ -629,3 +629,8 @@ img.brand-mark {
 .coming-soon .cta-row {
   justify-content: center;
 }
+.hidden { 
+  display: none; 
+  visibility: hidden;
+  
+}

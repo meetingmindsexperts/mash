@@ -7,7 +7,7 @@
           <span class="brand-label">Managed by</span>
           <img src="assets/img/mme.png" alt="Meeting Minds Experts" width="220" height="120" loading="lazy">
         </div>
-        <div class="brand-group" hidden aria-hidden="true">
+        <div class="brand-group hidden"  aria-hidden="true">
           <span class="brand-label">Endorsed by</span>
           <img src="assets/img/dha-logo.png" alt="Dubai Health Authority" width="220" height="120" loading="lazy">
         </div>
