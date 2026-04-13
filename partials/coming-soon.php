@@ -37,7 +37,7 @@
         Saturday, 25 April 2026 · 6:00 – 8:15 PM <abbr title="Gulf Standard Time">GMT +4:00</abbr> · Virtual
       </p>
       <p class="coming-soon-note">A virtual scientific program for healthcare professionals. Full details will be available shortly.</p>
-      <div class="cta-row">
+      <div class="cta-row hidden" aria-hidden="true">
         <a class="btn btn-primary" href="register.php">Pre-register</a>
       </div>
     </div>
