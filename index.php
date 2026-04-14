@@ -267,6 +267,7 @@ include __DIR__ . '/partials/header.php';
             <div>
               <h3>Welcome Note</h3>
               <p class="agenda-speaker">Venkat Kalyan</p>
+              <p class="agenda-topic">General Manager, Novo Nordisk Gulf</p>
             </div>
           </li>
         </ol>

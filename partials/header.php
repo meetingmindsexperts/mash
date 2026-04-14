@@ -6,7 +6,7 @@
 // includes this header is replaced with partials/coming-soon.php, except for
 // register.php (early sign-ups via direct link still work) and visitors who
 // arrive with ?preview=<token> (stakeholder preview, persisted in a cookie).
-$LAUNCHED       = false;
+$LAUNCHED       = true;
 $PREVIEW_TOKEN  = 'mash2026';
 $PREVIEW_COOKIE = 'mash_preview';
 
