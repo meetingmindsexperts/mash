@@ -21,7 +21,7 @@
         MASH, metabolic dysfunction-associated steatohepatitis.
       </p>
       <p class="disclaimer">
-        This program is sponsored by Novo Nordisk and endorsed by the Dubai Health Authority (DHA). Program management by Meeting Minds Experts. Visual materials are produced by Novo Nordisk. Content is for healthcare professionals only, for educational purposes, and does not constitute medical advice.
+        This program is sponsored by Novo Nordisk. Program management by Meeting Minds Experts. Visual materials are produced by Novo Nordisk. Content is for healthcare professionals only, for educational purposes, and does not constitute medical advice.
         &copy; <?= date('Y') ?> Novo Nordisk.
       </p>
 

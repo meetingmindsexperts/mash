@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Meeting Minds Experts//Wegovy in MASH//EN
+PRODID:-//Meeting Minds Experts//MASH//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
@@ -8,15 +8,15 @@ UID:mash-uae-2026-04-25@meetingmindsexperts.github.io
 DTSTAMP:20260410T000000Z
 DTSTART:20260425T140000Z
 DTEND:20260425T161500Z
-SUMMARY:Wegovy(R) in MASH — MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE
+SUMMARY:MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE
 DESCRIPTION:A multidisciplinary scientific program on early identification and integrated management of MASH (metabolic dysfunction-associated steatohepatitis). Chaired by Dr. Ahmad Al-Rifai with leading hepatology and endocrinology faculty from the UAE and Germany. For healthcare professionals only.\n\nhttps://meetingmindsexperts.github.io/mash/
 LOCATION:Virtual
-URL:https://meetingmindsexperts.github.io/mash/
+URL:https://mashinfocus.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Wegovy in MASH starts soon
+DESCRIPTION: MASH starts soon
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

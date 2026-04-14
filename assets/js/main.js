@@ -8,14 +8,14 @@
 
   // ----- Single source of truth: edit here to retarget -----
   var EVENT = {
-    title:       'Wegovy\u00AE in MASH \u2014 MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE',
+    title:       'MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE',
     description: 'A multidisciplinary scientific program on early identification and integrated management of MASH (metabolic dysfunction-associated steatohepatitis). Chaired by Dr. Ahmad Al-Rifai with leading hepatology and endocrinology faculty from the UAE and Germany. For healthcare professionals only.',
     location:    'Virtual',
-    url:         'https://meetingmindsexperts.github.io/mash/',
+    url:         'https://mashinfocus.com/',
     // 25 April 2026, 18:00 \u2013 20:15 (Gulf Standard Time, UTC+04:00)
     start:       '2026-04-25T18:00:00+04:00',
     end:         '2026-04-25T20:15:00+04:00',
-    uid:         'mash-uae-2026-04-25@meetingmindsexperts.github.io'
+    uid:         'mash-uae-2026-04-25@mashinfocus.com'
   };
   // Dedicated page that embeds the BigMarker registration form.
   // Applied to every [data-register] link below (rewritten to open in a new tab).
@@ -152,7 +152,7 @@
     return [
       'BEGIN:VCALENDAR',
       'VERSION:2.0',
-      'PRODID:-//Meeting Minds Experts//Wegovy in MASH//EN',
+      'PRODID:-//Meeting Minds Experts//MASH in Focus//EN',
       'CALSCALE:GREGORIAN',
       'METHOD:PUBLISH',
       'BEGIN:VEVENT',
@@ -168,7 +168,7 @@
       'TRANSP:OPAQUE',
       'BEGIN:VALARM',
       'ACTION:DISPLAY',
-      'DESCRIPTION:Wegovy in MASH starts soon',
+      'DESCRIPTION:MASH in Focus starts soon',
       'TRIGGER:-PT30M',
       'END:VALARM',
       'END:VEVENT',
@@ -181,7 +181,7 @@
     var url  = URL.createObjectURL(blob);
     var a    = document.createElement('a');
     a.href     = url;
-    a.download = 'wegovy-in-mash-2026.ics';
+    a.download = 'mash-in-focus-2026.ics';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

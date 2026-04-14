@@ -1,4 +1,4 @@
-# Wegovy® in MASH — Landing Page
+# MASH in Focus — Landing Page
 
 Static landing page for **MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE**, a virtual scientific program on **25 April 2026, 6:00 – 8:15 PM (GST)**, sponsored by Novo Nordisk.
 
