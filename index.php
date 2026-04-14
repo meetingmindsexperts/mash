@@ -11,18 +11,18 @@ $page_preload_head = <<<HTML
 HTML;
 
 $page_extra_head = <<<'HTML'
-<meta name="keywords" content="MASH, metabolic dysfunction-associated steatohepatitis, NASH, Wegovy, semaglutide, hepatology, endocrinology, UAE, Dubai, Abu Dhabi, Novo Nordisk, liver disease, metabolic disease, scientific program, CME, healthcare professionals">
+<meta name="keywords" content="MASH, metabolic dysfunction-associated steatohepatitis, NASH, semaglutide, hepatology, endocrinology, UAE, Dubai, Abu Dhabi, Novo Nordisk, liver disease, metabolic disease, scientific program, CME, healthcare professionals">
 <meta name="author" content="Novo Nordisk">
 
-<link rel="canonical" href="https://meetingmindsexperts.github.io/mash/">
+<link rel="canonical" href="https://mashinfocus.com/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MASH in Focus">
 <meta property="og:title" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
 <meta property="og:description" content="Virtual scientific program · 25 April 2026 · 6:00 – 8:15 PM (GMT +4:00). Chaired by Dr. Ahmad Al‑Rifai with leading hepatology and endocrinology faculty. For healthcare professionals.">
-<meta property="og:url" content="https://meetingmindsexperts.github.io/mash/">
-<meta property="og:image" content="https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg">
+<meta property="og:url" content="https://mashinfocus.com/">
+<meta property="og:image" content="https://mashinfocus.com/assets/img/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE, 25 April 2026, virtual scientific event.">
@@ -32,7 +32,7 @@ $page_extra_head = <<<'HTML'
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE">
 <meta name="twitter:description" content="Virtual scientific program · 25 April 2026 · 6:00 – 8:15 PM (GMT +4:00). For healthcare professionals.">
-<meta name="twitter:image" content="https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg">
+<meta name="twitter:image" content="https://mashinfocus.com/assets/img/og-cover.jpg">
 
 <!-- JSON-LD: Event -->
 <script type="application/ld+json">
@@ -47,11 +47,11 @@ $page_extra_head = <<<'HTML'
   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
   "location": {
     "@type": "VirtualLocation",
-    "url": "https://meetingmindsexperts.github.io/mash/"
+    "url": "https://mashinfocus.com/"
   },
   "image": [
-    "https://meetingmindsexperts.github.io/mash/assets/img/og-cover.jpg",
-    "https://meetingmindsexperts.github.io/mash/assets/img/mash-banner-desk.jpg"
+    "https://mashinfocus.com/assets/img/og-cover.jpg",
+    "https://mashinfocus.com/assets/img/mash-banner-desk.jpg"
   ],
   "organizer": {
     "@type": "Organization",
@@ -77,7 +77,7 @@ $page_extra_head = <<<'HTML'
   "isAccessibleForFree": true,
   "offers": {
     "@type": "Offer",
-    "url": "https://meetingmindsexperts.github.io/mash/#register",
+    "url": "https://mashinfocus.com/#register",
     "price": "0",
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
@@ -92,7 +92,7 @@ $page_extra_head = <<<'HTML'
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
   "name": "MASH in Focus — Scientific Program",
-  "url": "https://meetingmindsexperts.github.io/mash/",
+  "url": "https://mashinfocus.com/",
   "audience": {
     "@type": "MedicalAudience",
     "audienceType": "MedicalResearcher"
