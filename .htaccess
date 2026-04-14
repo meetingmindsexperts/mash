@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirect legacy .html bookmarks to the PHP pages that render header/footer
+# via server-side includes. Use 301 so search engines consolidate.
+RewriteRule ^index\.html$     /index.php    [R=301,L]
+RewriteRule ^register\.html$  /register.php [R=301,L]
+
+# Serve index.php as the directory default.
+DirectoryIndex index.php index.html
