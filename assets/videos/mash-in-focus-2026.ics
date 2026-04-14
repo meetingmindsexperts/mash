@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meeting Minds Experts//MASH in Focus//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mash-uae-2026-04-25@mashinfocus.com
+DTSTAMP:20260414T134059Z
+DTSTART:20260425T140000Z
+DTEND:20260425T161500Z
+SUMMARY:MASH in Focus: Integrating Metabolic and Hepatic Care in the UAE
+DESCRIPTION:A multidisciplinary scientific program on early identification and integrated management of MASH (metabolic dysfunction-associated steatohepatitis). Chaired by Dr. Ahmad Al-Rifai with leading hepatology and endocrinology faculty from the UAE and Germany. For healthcare professionals only.\n\nhttps://mashinfocus.com/
+LOCATION:Virtual
+URL:https://mashinfocus.com/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MASH in Focus starts soon
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
