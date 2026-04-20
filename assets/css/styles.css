@@ -594,6 +594,37 @@ img.brand-mark {
   a { color: #000; text-decoration: underline; }
 }
 
+/* ============== RESOURCE ============== */
+.resource-page { background: var(--paper-2); }
+.resource-section { padding-top: clamp(32px, 5vw, 56px); }
+.resource-layout {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.resource-intro { text-align: center; }
+.resource-intro h1 {
+  font-size: clamp(1.7rem, 3vw + .6rem, 2.4rem);
+  margin: 4px 0 8px;
+}
+.resource-intro .lede { margin: 0; color: var(--ink-2); }
+.resource-video {
+  background: #000;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 16 / 9;
+}
+.resource-video video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.resource-layout > .cta-row { justify-content: center; }
+
 /* ============== COMING SOON ============== */
 .coming-soon-page {
   background: linear-gradient(180deg, var(--paper-2) 0%, var(--paper) 60%);

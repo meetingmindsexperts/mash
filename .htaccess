@@ -5,5 +5,8 @@ RewriteEngine On
 RewriteRule ^index\.html$     /index.php    [R=301,L]
 RewriteRule ^register\.html$  /register.php [R=301,L]
 
+# Clean URL: /resource (and /resources) -> resource.php
+RewriteRule ^resources?/?$    resource.php  [L]
+
 # Serve index.php as the directory default.
 DirectoryIndex index.php index.html
