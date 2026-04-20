@@ -14,7 +14,7 @@ include __DIR__ . '/partials/header.php';
       <div class="container resource-layout">
         <div class="resource-intro">
           <p class="kicker">Resources</p>
-          <h1 id="resource-title">MASH in Focus — Promo</h1>
+          <h1 id="resource-title">MASH in Focus</h1>
           <p class="lede">A short introduction to the upcoming scientific program.</p>
         </div>
 
