@@ -598,7 +598,7 @@ img.brand-mark {
 .resource-page { background: var(--paper-2); }
 .resource-section { padding-top: clamp(32px, 5vw, 56px); }
 .resource-layout {
-  max-width: 700px;
+  max-width: 760px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

@@ -23,7 +23,7 @@ include __DIR__ . '/partials/header.php';
             controls
             playsinline
             preload="metadata"
-            poster="assets/img/mash-banner-desk.jpg"
+            poster="assets/img/mash-promi-thumb.jpg"
             aria-label="MASH in Focus promotional video">
             <source src="https://mashinfocus.com/promo.mp4" type="video/mp4">
             Your browser does not support the video tag.
