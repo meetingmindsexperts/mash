@@ -202,7 +202,7 @@ img.brand-mark {
 .hero-cme-stamp {
   position: absolute;
   top: clamp(12px, 2.5vw, 28px);
-  right: clamp(12px, 2.5vw, 28px);
+  right: clamp(24px, 4vw, 56px);
   width: clamp(72px, 11vw, 140px);
   height: auto;
   filter: drop-shadow(0 6px 16px rgba(0,0,0,.35));
