@@ -191,12 +191,23 @@ img.brand-mark {
   width: 100%;
   margin: 0;
   overflow: hidden;
+  position: relative;
 }
-.hero-banner img,
-.hero-banner video {
+.hero-banner > video,
+.hero-banner > picture img {
   width: 100%;
   height: auto;
   display: block;
+}
+.hero-cme-stamp {
+  position: absolute;
+  top: clamp(12px, 2.5vw, 28px);
+  right: clamp(12px, 2.5vw, 28px);
+  width: clamp(72px, 11vw, 140px);
+  height: auto;
+  filter: drop-shadow(0 6px 16px rgba(0,0,0,.35));
+  pointer-events: none;
+  z-index: 2;
 }
 .hero-body {
   margin-top: clamp(20px, 3vw, 36px);

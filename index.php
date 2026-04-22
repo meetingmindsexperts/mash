@@ -123,6 +123,7 @@ include __DIR__ . '/partials/header.php';
           preload="auto"
           aria-label="MASH in Focus — Integrating Metabolic and Hepatic Care in the UAE. 25 April 2026, 6:00 – 8:15 PM (GMT +4:00), Virtual.">
         </video>
+        <img class="hero-cme-stamp" src="assets/img/cme-stamp.png" alt="CME accredited" width="160" height="160" loading="eager">
       </div>
 
       <div class="container hero-body">
