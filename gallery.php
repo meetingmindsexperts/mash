@@ -48,7 +48,7 @@ include __DIR__ . '/partials/header.php';
                 <a href="https://mashinfocus.com/speakerpromo.mp4">Download the speaker video</a>.
               </video>
             </div>
-            <figcaption>From the faculty</figcaption>
+            <figcaption>A Message from the Faculty</figcaption>
           </figure>
         </div>
 
