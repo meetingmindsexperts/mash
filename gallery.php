@@ -15,7 +15,7 @@ include __DIR__ . '/partials/header.php';
         <div class="resource-intro">
           <p class="kicker">Gallery</p>
           <h1 id="gallery-title">MASH in Focus</h1>
-          <p class="lede">Programme trailer and a short message from the faculty.</p>
+          <p class="lede" style="margin: 0 auto">Program Promo and a message from the faculty.</p>
         </div>
 
         <div class="resource-videos">
@@ -32,7 +32,7 @@ include __DIR__ . '/partials/header.php';
                 <a href="https://mashinfocus.com/promo.mp4">Download the promo video</a>.
               </video>
             </div>
-            <figcaption>Programme trailer</figcaption>
+            <figcaption>Program Promo</figcaption>
           </figure>
 
           <figure class="resource-video-item">
@@ -48,7 +48,7 @@ include __DIR__ . '/partials/header.php';
                 <a href="https://mashinfocus.com/speakerpromo.mp4">Download the speaker video</a>.
               </video>
             </div>
-            <figcaption>A message from the faculty</figcaption>
+            <figcaption>From the faculty</figcaption>
           </figure>
         </div>
 
