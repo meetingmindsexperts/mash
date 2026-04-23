@@ -627,6 +627,18 @@ img.brand-mark {
   color: var(--ink-2);
   font-size: .95rem;
 }
+
+/* Gallery: widen container to match home, render two videos side by side. */
+.gallery-page .resource-layout { max-width: var(--container); }
+.gallery-page .resource-videos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 100%;
+}
+@media (min-width: 880px) {
+  .gallery-page .resource-videos { grid-template-columns: 1fr 1fr; gap: 32px; }
+}
 .resource-intro { text-align: center; }
 .resource-intro h1 {
   font-size: clamp(1.7rem, 3vw + .6rem, 2.4rem);

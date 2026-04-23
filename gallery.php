@@ -18,37 +18,39 @@ include __DIR__ . '/partials/header.php';
           <p class="lede">Programme trailer and a short message from the faculty.</p>
         </div>
 
-        <figure class="resource-video-item">
-          <div class="resource-video">
-            <video
-              controls
-              playsinline
-              preload="metadata"
-              poster="assets/img/mash-promi-thumb.jpg"
-              aria-label="MASH in Focus promotional video">
-              <source src="https://mashinfocus.com/promo.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-              <a href="https://mashinfocus.com/promo.mp4">Download the promo video</a>.
-            </video>
-          </div>
-          <figcaption>Programme trailer</figcaption>
-        </figure>
+        <div class="resource-videos">
+          <figure class="resource-video-item">
+            <div class="resource-video">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/img/mash-promi-thumb.jpg"
+                aria-label="MASH in Focus promotional video">
+                <source src="https://mashinfocus.com/promo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                <a href="https://mashinfocus.com/promo.mp4">Download the promo video</a>.
+              </video>
+            </div>
+            <figcaption>Programme trailer</figcaption>
+          </figure>
 
-        <figure class="resource-video-item">
-          <div class="resource-video">
-            <video
-              controls
-              playsinline
-              preload="metadata"
-              poster="assets/img/speaker-thumb.png"
-              aria-label="MASH in Focus faculty message">
-              <source src="https://mashinfocus.com/speakerpromo.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-              <a href="https://mashinfocus.com/speakerpromo.mp4">Download the speaker video</a>.
-            </video>
-          </div>
-          <figcaption>A message from the faculty</figcaption>
-        </figure>
+          <figure class="resource-video-item">
+            <div class="resource-video">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/img/speaker-thumb.png"
+                aria-label="MASH in Focus faculty message">
+                <source src="https://mashinfocus.com/speakerpromo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                <a href="https://mashinfocus.com/speakerpromo.mp4">Download the speaker video</a>.
+              </video>
+            </div>
+            <figcaption>A message from the faculty</figcaption>
+          </figure>
+        </div>
 
         <div class="cta-row">
           <a class="btn btn-primary" href="register.php">Register to attend</a>
