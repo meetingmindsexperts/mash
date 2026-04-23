@@ -5,8 +5,12 @@ RewriteEngine On
 RewriteRule ^index\.html$     /index.php    [R=301,L]
 RewriteRule ^register\.html$  /register.php [R=301,L]
 
-# Clean URL: /resource (and /resources) -> resource.php
-RewriteRule ^resources?/?$    resource.php  [L]
+# Clean URL: /gallery -> gallery.php
+RewriteRule ^gallery/?$       gallery.php   [L]
+
+# Legacy /resource and /resources URLs now point to the renamed gallery page.
+RewriteRule ^resources?/?$    /gallery      [R=301,L]
+RewriteRule ^resource\.php$   /gallery.php  [R=301,L]
 
 # Serve index.php as the directory default.
 DirectoryIndex index.php index.html

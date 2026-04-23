@@ -115,6 +115,7 @@ $page_extra_head        = $page_extra_head        ?? '';
           <li><a href="<?= htmlspecialchars($page_nav_prefix, ENT_QUOTES) ?>#about">About</a></li>
           <li><a href="<?= htmlspecialchars($page_nav_prefix, ENT_QUOTES) ?>#speakers">Speakers</a></li>
           <li><a href="<?= htmlspecialchars($page_nav_prefix, ENT_QUOTES) ?>#agenda">Agenda</a></li>
+          <li><a href="gallery.php">Gallery</a></li>
           <?php if ($page_show_register_cta): ?>
           <li><a class="nav-cta" href="register.php" data-register>Register</a></li>
           <?php endif; ?>
